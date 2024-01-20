@@ -21,7 +21,7 @@
    1. 属于基础的算法类型没完全掌握的
 2. 按分数段来做负重训练，100分为一段
    1. 假如自己的分数是2000，找到自己的弱项，做难度为自己当前 rating+200 的相关题目。
-   1. 多做构造题能有效提高自己的思维水平（开脑洞的能力），从而更快地找到切题入口。（构造题即 constructive [algorithms](https://www.zhihu.com/search?q=algorithms&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra={"sourceType"%3A"answer"%2C"sourceId"%3A2353160035})，可以通过 problemset 页面右侧的 Filter Problems 来搜索）
+   1. 多做构造题能有效提高自己的思维水平（开脑洞的能力），从而更快地找到切题入口。（构造题即 constructive algorithms，可以通过 problemset 页面右侧的 Filter Problems 来搜索）
    1. 大多数时候，思考 10 分钟没有思路可以直接看题解。这是因为如果你思考 10 分钟没有思路，可能是有一个概念不知道，或者有一个观察错过了。在你训练的过程中，最好是解决更多的问题，积累更多的解题技巧。
 3. 题量很重要
    1. 1000题、2000题、3000题是一个门槛
