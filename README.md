@@ -1,4 +1,4 @@
-# 这是一篇Leetcode的
+# Murasame‘s Leetcode Notes
 
 为什么要刷题？
 
