@@ -97,7 +97,9 @@ class Solution:
 
 
 
-# 平衡二叉树
+# 检查平衡二叉树
+
+平衡二叉树（Balanced BinaryTree）又被称为AVL树。 它具有以下性质：它是**一棵空树或它的左右两个子树的高度差的绝对值不超过1，并且左右两个子树都是一棵平衡二叉树**。
 
 ```python
 # Definition for a binary tree node.
@@ -115,7 +117,7 @@ class Solution:
         if root==None: return 0
         left=self.compare(root.left)
         right=self.compare(root.right)
-        if left>=0 and right>=0 and abs(left-right)<=1:
+        if left>=0 and right>=0 and abs(left-right)<=1: # 高度差不超过1
             return max(left,right)+1
         else: 
             return -1 

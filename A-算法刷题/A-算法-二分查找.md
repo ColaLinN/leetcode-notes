@@ -1,4 +1,35 @@
-![image-20200801203404830](A-算法-二分查找/image-20200801203404830.png)
+
+
+如下有三个模版，在查找完后分别有0、1、2个候选人
+
+1. 几个模版根据while里的条件，下面的条件赋值决定了有多少个候选人
+
+2. 模版1和模版2最大的不同在于
+
+   1. 模版1的while判断条件里有等于的情况，会导致走出while的时候（非return情况），right+1=left
+   2. 模版1在中位数等于target的时候直接返回，而不考虑太多target从哪开始从哪结束
+   3. 模版1在中位数大于target时，把right置为mid-1，而模版二则是把right置为mid
+
+3. 模版2选择了right=length开局
+
+   1. 结果是，如果数组中没有target，left==right==length
+
+   2. 如果有target，则返回第一个target的位置（当然，这个可以按情况调整）
+
+   3. 如果选择了right=length-1开局
+      1. 结果不会有left==right==length
+
+      2. 
+
+4. 相同之处在于
+
+   1. mid = left + (left+right)/2
+   1. 
+
+5. 心中要有一个尺子，假设目标数据出现的范围是一个绿色，然后迅速模拟做出判断。下面红色的地方既是模版重要不同点，也是可替换部分
+
+
+      ![image-20200801203404830](A-算法-二分查找/image-20200801203404830.png)
 
 第三个模板的好处是可以根据自己的需要缩圈
 
@@ -61,12 +92,14 @@ func searchRange (A []int, target int) []int {
     if len(A) == 0 {
         return []int{-1, -1}
     }
+  
+  	// Step 1
     result := make([]int, 2)
     start := 0
     end := len(A) - 1
     for start+1 < end {
         mid := start + (end-start)/2
-        if A[mid] > target {
+        if A[mid] > target {  //锐评，能缩减成一个if和一个else
             end = mid
         } else if A[mid] < target {
             start = mid
@@ -85,6 +118,8 @@ func searchRange (A []int, target int) []int {
         result[1] = -1
         return result
     }
+  
+  	// Step 2
     start = 0
     end = len(A) - 1
     for start+1 < end {
