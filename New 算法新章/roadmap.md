@@ -14,22 +14,25 @@ Follow 灵神
 
 https://github.com/EndlessCheng/codeforces-go/blob/master/leetcode/README.md
 
-1. 双指针
-   1. [相向双指针 1](https://www.bilibili.com/video/BV1bP411c7oJ/)
-   2. [同向双指针 滑动窗口](https://www.bilibili.com/video/BV1hd4y1r7Gq/)
-   3. [二分查找](https://www.bilibili.com/video/BV1AP41137w7/)
-   4. [二分查找 - 变形](https://www.bilibili.com/video/BV1QK411d76w/)
-2. 链表
+4+3+5+9+2=23....太慢了，需要加快速度才好
+
+1. 双指针 4
+   1. [相向双指针 1](https://www.bilibili.com/video/BV1bP411c7oJ/)  👌
+   2. [相向双指针 2 ](https://www.bilibili.com/video/BV1Qg411q7ia/)  👌
+   3. [同向双指针 滑动窗口](https://www.bilibili.com/video/BV1hd4y1r7Gq/)
+   4. [二分查找](https://www.bilibili.com/video/BV1AP41137w7/)
+   5. [二分查找 - 变形](https://www.bilibili.com/video/BV1QK411d76w/)
+2. 链表 3
    1. [链表 - 反转系列](https://www.bilibili.com/video/BV1sd4y1x7KN/)
    2. [链表 - 快慢指针](https://www.bilibili.com/video/BV1KG4y1G7cu/)
    3. [链表 - 删除系列](https://www.bilibili.com/video/BV1VP4y1Q71e/)
-3. 二叉树
+3. 二叉树 5
    1. [二叉树与递归 - 深入理解](https://www.bilibili.com/video/BV1UD4y1Y769/)
    2. [二叉树与递归 - 灵活运用](https://www.bilibili.com/video/BV18M411z7bb/)
    3. [二叉树与递归 - 前序/中序/后序](https://www.bilibili.com/video/BV14G411P7C1/)
    4. [二叉树与递归 - 最近公共祖先](https://www.bilibili.com/video/BV1W44y1Z7AR/)
    5. [二叉树 - BFS](https://www.bilibili.com/video/BV1hG4y1277i/)
-4. 回溯
+4. 回溯 9
    1. [回溯 - 子集型](https://www.bilibili.com/video/BV1mG4y1A7Gu/)
    2. [回溯 - 组合型与剪枝](https://www.bilibili.com/video/BV1xG4y1F7nC/)
    3. [回溯 - 排列型](https://www.bilibili.com/video/BV1mY411D7f6/)
@@ -46,7 +49,13 @@ https://github.com/EndlessCheng/codeforces-go/blob/master/leetcode/README.md
 6. [单调栈](https://www.bilibili.com/video/BV1VN411J7S7/)
 7. [单调队列](https://www.bilibili.com/video/BV1bM411X72E/)
 
+### 分类题单
 
+- [滑动窗口（定长/不定长/多指针）](https://leetcode.cn/circle/discuss/0viNMK/)
+- [二分算法（二分答案/最小化最大值/最大化最小值/第K小）](https://leetcode.cn/circle/discuss/SqopEo/)
+- [单调栈（矩形系列/字典序最小/贡献法）](https://leetcode.cn/circle/discuss/9oZFK9/)
+- [网格图（DFS/BFS/综合应用）](https://leetcode.cn/circle/discuss/YiXPXW/)
+- [位运算（基础/性质/拆位/试填/恒等式/贪心/脑筋急转弯）](https://leetcode.cn/circle/discuss/dHn9Vk/)
 
 
 
