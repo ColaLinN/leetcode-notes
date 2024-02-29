@@ -19,9 +19,9 @@ https://github.com/EndlessCheng/codeforces-go/blob/master/leetcode/README.md
 1. 双指针 4
    1. [相向双指针 1](https://www.bilibili.com/video/BV1bP411c7oJ/)  👌
    2. [相向双指针 2 ](https://www.bilibili.com/video/BV1Qg411q7ia/)  👌
-   3. [同向双指针 滑动窗口](https://www.bilibili.com/video/BV1hd4y1r7Gq/)
-   4. [二分查找](https://www.bilibili.com/video/BV1AP41137w7/)
-   5. [二分查找 - 变形](https://www.bilibili.com/video/BV1QK411d76w/)
+   3. [同向双指针 滑动窗口](https://www.bilibili.com/video/BV1hd4y1r7Gq/) 👌
+   4. [二分查找 ](https://www.bilibili.com/video/BV1AP41137w7/)👌
+   5. [二分查找 - 变形 ](https://www.bilibili.com/video/BV1QK411d76w/)👌
 2. 链表 3
    1. [链表 - 反转系列](https://www.bilibili.com/video/BV1sd4y1x7KN/)
    2. [链表 - 快慢指针](https://www.bilibili.com/video/BV1KG4y1G7cu/)
