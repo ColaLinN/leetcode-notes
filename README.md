@@ -58,6 +58,12 @@
 
 
 
+# 其他
+
+在github homepage上加上leetcode的数据：https://github.com/JacobLinCool/LeetCode-Stats-Card?tab=readme-ov-file
+
+![LeetCode Stats](https://leetcard.jacoblin.cool/colalinn?theme=light&font=Sura&ext=heatmap&site=cn)
+
 # 参考
 
 1. 如何科学上分 https://www.bilibili.com/read/cv22332590/?spm_id_from=333.999.0.0 灵茶山艾府
