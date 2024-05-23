@@ -59,7 +59,7 @@ inputWords = a.split(" ") #['baidu']<---
 output = ''.join(inputWords)<---
 
 inputWords2 = list(a)<---
-inputWords2=inputWords2[-1::-1] #['u', 'd', 'i', 'a', 'b']
+inputWords2=inputWords2[-1::-1] # ['u', 'd', 'i', 'a', 'b']
 output2 = ''.join(inputWords2)
 print(inputWords)
 print(inputWords2)
@@ -188,8 +188,6 @@ dict(d)#创建一个字典。d 必须是一个 (key, value)元组序列。
 chr(x)#将一个整数转换为一个字符
 ord(x)#将一个字符转换为它的整数值
 ```
-
-
 
 # 操作符
 
